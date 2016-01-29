@@ -7,5 +7,6 @@
 
 >pause
 
-Echo on keeps the console visible while output is printed
+Echo on keeps the console visible while output is printed.
+
 Pause closes console when it finishes and a key is pressed
