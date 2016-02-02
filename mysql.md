@@ -22,3 +22,11 @@ or
 ## Clients
 
 For mac: sequel pro
+
+## How to export
+
+> mysqldump -uusername -p -h hostname --port 3306 somedb > somedb.sql
+
+## How to import 
+
+> mysql -uusername -p -h hostname --port 3306 somedb < somedb.sql
