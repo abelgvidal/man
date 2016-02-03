@@ -27,6 +27,10 @@ For mac: sequel pro
 
 > mysqldump -uusername -p -h hostname --port 3306 somedb > somedb.sql
 
+or 
+
+>  mysqldump -uusername -p -h hostname --port 3306 --all-databases > somedb.sql
+
 ## How to import 
 
 > mysql -uusername -p -h hostname --port 3306 somedb < somedb.sql
