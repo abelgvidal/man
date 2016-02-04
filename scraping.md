@@ -1,7 +1,7 @@
 
 # Getting quickly image of remote images
 
-  function ranger($url){
+    function ranger($url){
       $headers = array(
       "Range: bytes=0-32768"
       );
@@ -12,7 +12,7 @@
       $data = curl_exec($curl);
       curl_close($curl);
       return $data;
-  }
+    }
   
     $start = microtime(true);
     
