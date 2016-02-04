@@ -28,5 +28,4 @@
     
     echo $width." x ".$height." ({$stop}s)";
     
-  
-  source: http://stackoverflow.com/questions/4635936/super-fast-getimagesize-in-php
+
