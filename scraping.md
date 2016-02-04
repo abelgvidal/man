@@ -1,5 +1,5 @@
 
-# Getting quickly image of remote images
+# Getting quickly image size of remote images
 
     function ranger($url){
       $headers = array(
