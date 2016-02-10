@@ -75,3 +75,6 @@ So our milestone user needs access to dbTest.public.* , both for all tables as w
 > postgres=# \dt # SHOW TABLES
 > postgres=# \d myTable # DESCRIBE myTable
 
+## Import file
+
+> \i /dir1/dir2/file.sql
