@@ -16,7 +16,6 @@ backend1
 
 [database]
 database1
-```
 
 [appserver]
 front enviromentvariableofyourchoice=front
@@ -49,4 +48,24 @@ ansible 3.3.3.1 -a 'ls /var/log/*'
 ```
 
 
+## Playbooks
+
+A playbook crosses groups of machines with tasks
+
+```
+---
+- hosts: all
+  vars:
+    someVarYouCouldUse: someDummyValue
+
+  tasks:
+  - name: Install base common packages
+    become: yes
+    apt: name={{item}} state=present update_cache=yes cache_valid_time=3600
+    with_items:
+      - git
+
+```
+
+This will install git in all machines.
 
