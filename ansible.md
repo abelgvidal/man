@@ -1,6 +1,21 @@
 Ansible
 ===============
 
+Example host
+
+```
+front 10.0.0.2
+backend 10.0.0.3
+
+[appserver]
+front enviromentvariableofyourchoice=front
+back enviromentvariableofyourchoice=back
+
+[appserver:vars]
+envvariableforappgroup=prod
+enviromentvariableofyourchoice=valueWillBeOverridenBecauseIsDefinedInTheSameHost
+```
+
 simple command
 
 ```
