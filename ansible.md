@@ -69,3 +69,6 @@ A playbook crosses groups of machines with tasks
 
 This will install git in all machines.
 
+## Example playbooks
+
+https://github.com/jcalazan/ansible-django-stack/blob/master/roles/base/tasks/main.yml
