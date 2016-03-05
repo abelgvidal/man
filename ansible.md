@@ -6,8 +6,17 @@ Ansible
 # Inventories 
 
 ```
-front 10.0.0.2
-backend 10.0.0.3
+frontend1 ansible_ssh_host=10.0.0.2
+backend1 ansible_ssh_host=10.0.0.3
+database1 ansible_ssh_host=10.0.0.4
+
+[appserver]
+frontend1
+backend1
+
+[database]
+database1
+```
 
 [appserver]
 front enviromentvariableofyourchoice=front
