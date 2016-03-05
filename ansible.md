@@ -1,7 +1,7 @@
 Ansible
 ===============
 
-Example host
+Example inventory
 
 ```
 front 10.0.0.2
