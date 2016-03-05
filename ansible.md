@@ -1,7 +1,9 @@
+
+
 Ansible
 ===============
 
-Example inventory
+# Inventories 
 
 ```
 front 10.0.0.2
@@ -16,7 +18,16 @@ envvariableforappgroup=prod
 enviromentvariableofyourchoice=valueWillBeOverridenBecauseIsDefinedInTheSameHost
 ```
 
-simple command
+Vars can be defined in hosts_vars and groups_vars folders. File must match hostname and group name. To apply to all use file all.yml.
+
+To define variable runner in group appserver:
+
+```
+echo 'runner=mamba' > group_vars/appserver.yml
+```
+
+
+## Running commands
 
 ```
 ansible [3.3.3.1 or namemachine or all] - m module -a 'ls /var/log/*' [--become] [--become-user]
