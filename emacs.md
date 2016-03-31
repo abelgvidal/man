@@ -2,7 +2,7 @@
 
 ## Keys
 
-* C-c f   -->   helm-ag
+* C-c f   -->   helm-ag   (customized)
 
 
 
