@@ -1,5 +1,11 @@
 # Emacs
 
+## Keys
+
+* C-c f   -->   helm-ag
+
+
+
 ## Bind keys to function
 
 ```
