@@ -4,9 +4,7 @@ Things I should learn FTW.
 
 ## Work in progress
 * book - Fluent python: half read
-* ~~book - fast and slow~~
 * book - Mathematics for non mathematicians. Kline. Good stuff on maths history.
-
 
 ## Later
 * [Python interview questions](https://github.com/MaximAbramchuck/awesome-interviews#python)
