@@ -7,6 +7,7 @@ Things I should learn FTW.
 * ~~book - fast and slow~~
 * book - Mathematics for non mathematicians. Kline. Good stuff on maths history.
 
+
 ## Later
 * [Python interview questions](https://github.com/MaximAbramchuck/awesome-interviews#python)
 * [The 12 factor App](http://12factor.net/)
@@ -23,12 +24,7 @@ Things I should learn FTW.
 * Replication Techniques in Distributed Systems. Helal, Heddaya, etc.
 * [network programmability and Automation](http://shop.oreilly.com/product/0636920042082.do?code=DEAL&imm_mid=0df6a8&cmp=em-webops-books-videos-product-dod_network_programmability_and_automation_deal)
 * 10 papers recommended by Fogus. 
-* 
-
-## After effects
-* https://helpx.adobe.com/after-effects/using/automated-rendering-network-rendering.html
-* http://www.renderpal.com/
-* https://www.youtube.com/watch?v=yhBO-tDg3Ec
+* Python playground: Mahesh Venkitachalam
 
 ## AWS
 * [ Create Amazon EFS File System and Mount It on an EC2 Instance Using the AWS CLI] (http://docs.aws.amazon.com/efs/latest/ug/wt1-create-ec2-resources.html)
@@ -39,3 +35,6 @@ Things I should learn FTW.
 * [Geometry, a tutor](http://www.amazon.es/Tutor-Books-Geometry-Jo-Greig/dp/0978639030/ref=sr_1_1?ie=UTF8&qid=1452982295&sr=8-1&keywords=geometry+tutor+in+books&tag=sella-21)
 * [Practical algebra](http://www.amazon.es/Practical-Algebra-Self-teaching-Guides-Peter/dp/0471530123/ref=sr_1_cc_1?s=aps&ie=UTF8&qid=1452982746&sr=1-1-catcorr&keywords=practical+algebra+teaching)
 * [DE LOS BERNOULLI A LOS BOURBAKI: UNA HISTORIA DEL ARTE Y LA CIENCIA DEL CALCULO](http://www.casadellibro.com/libro-de-los-bernoulli-a-los-bourbaki-una-historia-del-arte-y-la-cienc-ia-del-calculo/9788495599704/953195)
+
+# Kids
+* book [Learn to Program with Small Basic](https://www.nostarch.com/smallbasic)
