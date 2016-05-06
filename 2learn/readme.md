@@ -21,13 +21,11 @@ Things I should learn FTW.
 * book - On lisp: Paul Graham
 * book - Code Complete. Mc Connell.
 * book - [let over lambda](http://www.amazon.es/Let-Over-Lambda-Doug-Hoyte/dp/1435712757/ref=pd_rhf_gw_s_cp_2?ie=UTF8&dpID=41rpu2m9vkL&dpSrc=sims&preST=_SL500_SR90%2C135_&refRID=02YB6CET48VM5A7Q1X2Z)
-* Replication Techniques in Distributed Systems. Helal, Heddaya, etc.
 * [network programmability and Automation](http://shop.oreilly.com/product/0636920042082.do?code=DEAL&imm_mid=0df6a8&cmp=em-webops-books-videos-product-dod_network_programmability_and_automation_deal)
+* Thinking in Systems: A Primer, by Donella H. Meadow
+*  Designing for Scalability with Erlang/OTP: Implementing Robust, Fault-Tolerant Systems. Cesarini, Francesco  
 * 10 papers recommended by Fogus. 
 * Python playground: Mahesh Venkitachalam
-
-## AWS
-* [ Create Amazon EFS File System and Mount It on an EC2 Instance Using the AWS CLI] (http://docs.aws.amazon.com/efs/latest/ug/wt1-create-ec2-resources.html)
 
 ## Maths
 * book - Mathematics: Its Content, Methods and Meaning : maths overview
