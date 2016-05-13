@@ -50,33 +50,45 @@ This line has to be placed before the rule that is valid for all users or it wil
 
 Finally the PostgreSQL service needs to be restarted. Pick one of (if it does not work, see below for pg_ctl ):
 
+```
 > service postgresql restart
 > /etc/init.d/postgresql restart
+```
 
 # Permissions on tables
 
+```
 > name_of_db=# \dn
 > List of schemas
 > Name | Owner 
 > --------+----------
 > public | postgres
 > (1 row)
+```
 
 So our milestone user needs access to dbTest.public.* , both for all tables as well as sequences. 
 
+```
 > name_of_db=# GRANT ALL ON ALL TABLES IN SCHEMA public TO milestone;
 > name_of_db=# GRANT ALL ON ALL SEQUENCES IN SCHEMA public TO milestone;
+```
 
 ## Autoincrement
 
+```
 > name_of_db=# CREATE TABLE foo (id serial PRIMARY KEY, bar text);
+```
 
 ## Show tables
 
+```
 > postgres=# \l # SHOW DATABASES
 > postgres=# \dt # SHOW TABLES
 > postgres=# \d myTable # DESCRIBE myTable
+```
 
 ## Import file
 
+```
 > \i /dir1/dir2/file.sql
+```
