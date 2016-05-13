@@ -4,10 +4,12 @@
 
 Log in as the newly created postgres user (after installing postgresql).
 
+```
 > su - postgres # only in linux, in OSX skip this
 > psql # Start the console
 > \h # Gives you a list of available SQL commands. 
 > \h [command] # Display [command] usage
+```
 
 ## Create database
 
