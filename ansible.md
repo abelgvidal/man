@@ -3,7 +3,16 @@
 Ansible
 ===============
 
-# Inventories 
+## Table of content
+
+- [Inventories](#Inventories)
+- [Running modules in command line](#running-modules-in-command-line)
+- [Playbooks](#Playbooks)
+    - [Including files](#including-files)
+
+## Inventories 
+
+Inventories is the list of machines we want to manage and the groups we need:
 
 ```
 frontend1 ansible_ssh_host=10.0.0.2
@@ -26,16 +35,7 @@ envvariableforappgroup=prod
 enviromentvariableofyourchoice=valueWillBeOverridenBecauseIsDefinedInTheSameHost
 ```
 
-Vars can be defined in hosts_vars and groups_vars folders. File must match hostname and group name. To apply to all use file all.yml.
-
-To define variable runner in group appserver:
-
-```
-echo 'runner=mamba' > group_vars/appserver.yml
-```
-
-
-## Running commands
+## Running modules in command line
 
 ```
 ansible [3.3.3.1 or namemachine or all] - m module -a 'ls /var/log/*' [--become] [--become-user]
@@ -56,7 +56,7 @@ A playbook crosses groups of machines with tasks
 ---
 - hosts: all
   vars:
-    someVarYouCouldUse: someDummyValue
+    some_var_you_could_use: some_value
 
   tasks:
   - name: Install base common packages
@@ -69,6 +69,26 @@ A playbook crosses groups of machines with tasks
 
 This will install git in all machines.
 
-## Example playbooks
+## Including files 
 
-https://github.com/jcalazan/ansible-django-stack/blob/master/roles/base/tasks/main.yml
+A playbook can include other files. You can include a file passing a variable:
+
+
+```
+tasks:
+  - include: wordpress.yml wp_user=timmy
+  - include: wordpress.yml wp_user=alice
+  - include: wordpress.yml wp_user=bob
+```
+
+or you can include a file passing structured data
+
+```
+tasks:
+  - include: wordpress.yml
+    vars:
+        wp_user: timmy
+        ssh_keys:
+          - keys/one.txt
+          - keys/two.txt
+```
