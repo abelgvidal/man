@@ -19,3 +19,8 @@
 	- P flag publishes exposed ports from the container to your local host
 
 
+## Dockerfile
+
+
+RUN echo "Europe/Oslo" > /etc/timezone \
+ && dpkg-reconfigure --frontend=noninteractive tzdata
