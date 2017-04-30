@@ -17,9 +17,10 @@
 `kubectl get nodes`
 
 ```
-kubectl run kubernetes-bootcamp 
- --image=docker.io/jocatalin/kubernetes-bootcamp:v1 --port=8080
+kubectl run my-nginx --image=nginx --replicas=2 --port=80
 ```
+           
+`kubectl expose deployment my-nginx --port=80 --type=LoadBalancer`
            
 `kubectl get deployments`
 
