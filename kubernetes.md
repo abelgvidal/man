@@ -10,3 +10,12 @@
   --enable-cloud-monitoring \
   --machine-type n1-standard-2 \
   --num-nodes 3```
+
+`kubectl cluster-info`
+
+`kubectl get nodes`
+
+```kubectl run kubernetes-bootcamp 
+           --image=docker.io/jocatalin/kubernetes-bootcamp:v1 --port=8080```
+           
+'kubectl get deployments`
