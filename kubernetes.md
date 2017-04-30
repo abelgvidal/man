@@ -34,4 +34,6 @@ echo Name of the Pod: $POD_NAME
 
 `kubectl describe pods`
 
-`kubectl logs`
+`kubectl logs $POD_NAME`
+
+`kubectl exec $POD_NAME env`
