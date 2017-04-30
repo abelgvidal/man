@@ -20,5 +20,5 @@
 kubectl run kubernetes-bootcamp 
         --image=docker.io/jocatalin/kubernetes-bootcamp:v1 --port=8080
 ```
-           
-'kubectl get deployments`
+           
+`kubectl get deployments`
