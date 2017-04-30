@@ -9,7 +9,8 @@
   --enable-cloud-logging \
   --enable-cloud-monitoring \
   --machine-type n1-standard-2 \
-  --num-nodes 3```
+  --num-nodes 3
+```
 
 `kubectl cluster-info`
 
