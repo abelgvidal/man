@@ -40,3 +40,5 @@ echo Name of the Pod: $POD_NAME
 `kubectl exec $POD_NAME env`
 
 `kubectl exec -ti $POD_NAME bash`
+
+`kubectl delete deployment my-nginx
