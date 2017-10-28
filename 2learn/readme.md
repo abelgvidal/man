@@ -1,4 +1,4 @@
-#2learn
+# To learn
 
 Things I should learn FTW.
 
@@ -31,6 +31,10 @@ Things I should learn FTW.
 * [Geometry, a tutor](http://www.amazon.es/Tutor-Books-Geometry-Jo-Greig/dp/0978639030/ref=sr_1_1?ie=UTF8&qid=1452982295&sr=8-1&keywords=geometry+tutor+in+books&tag=sella-21)
 * [Practical algebra](http://www.amazon.es/Practical-Algebra-Self-teaching-Guides-Peter/dp/0471530123/ref=sr_1_cc_1?s=aps&ie=UTF8&qid=1452982746&sr=1-1-catcorr&keywords=practical+algebra+teaching)
 * [DE LOS BERNOULLI A LOS BOURBAKI: UNA HISTORIA DEL ARTE Y LA CIENCIA DEL CALCULO](http://www.casadellibro.com/libro-de-los-bernoulli-a-los-bourbaki-una-historia-del-arte-y-la-cienc-ia-del-calculo/9788495599704/953195)
+
+## Lambdas
+* (Adrian Cockcroft: Shrinking Microservices to Functions)[https://www.youtube.com/watch?v=ZgxZCXouBkY]
+* (Migrating to Serverless - an experience report - Gojko Adzic)[https://www.youtube.com/watch?v=i2gEbw_jzfY]
 
 # Kids
 * book [Learn to Program with Small Basic](https://www.nostarch.com/smallbasic)
