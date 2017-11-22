@@ -1,6 +1,16 @@
 # Emacs
 
-## Keys
+## Keys
+
+`s-` - SUPER KEY
+
+
+### helm - projectile
+
+`s f` - find text in project
+`s t` - find files in project
+
+### Seeing is believing
 
 `C-. s` - Run Seeing is Believing for the entire file
 
