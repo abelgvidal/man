@@ -21,7 +21,8 @@
 
 `C-. x` - Run only the “tagged” lines (those with trailing “# => ” markers)
 
-### inf-ruby
+### inf-ruby
+
 `C-c C-s` - launch inf-ruby console
 
 `C-c C-r` - exec the highlighted text in the inf-ruby console
