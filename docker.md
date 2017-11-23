@@ -10,7 +10,7 @@
 - remove containers created *after* a specific container: ```docker ps --since a1bz3768ez7g -q | xargs docker rm```
 - remove containers created *before* a specific container: ```docker ps --before a1bz3768ez7g -q | xargs docker rm```
 
-## Docker options
+## Options
 
 - `d` flag keeps the container running in the background after the docker run command completes 
 - `P` flag publishes exposed ports from the container to your local host
