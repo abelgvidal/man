@@ -14,3 +14,7 @@
 
 - `d` flag keeps the container running in the background after the docker run command completes 
 - `P` flag publishes exposed ports from the container to your local host
+
+## For mac
+
+localhost from container is  `docker.for.mac.localhost`
