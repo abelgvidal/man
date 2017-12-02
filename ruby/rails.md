@@ -40,3 +40,9 @@ Running via Spring preloader in process 23
       invoke  scss
       create    /assets/stylesheets/scaffolds.scss
 ``` 
+## migrations
+
+```
+./bin/rake db:create
+./bin/rake db:migrate
+```
