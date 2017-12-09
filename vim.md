@@ -45,6 +45,10 @@ h l
 - `:%s/viejo/nuevo/g`  cambiar ocurrentes en todo el fichero
 - `:%s/viejo/nuevo/gc`  cambiar ocurrentes en todo el fichero pidiendo en cada caso confirmacion
 
+## buffers
+
+- `bd`  cerrar el buffer actual
+
 ## exec
 
 - `!`   ejecutar
