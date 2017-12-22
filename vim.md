@@ -7,6 +7,12 @@ h l
 
 ## texto
 
+- `gg`  principio de fichero
+- `G`   final de fichero
+- `0`   move to first column of line
+- `^`   move to the first non blank of line
+- `$`   final de linea
+
 - `i`   insertar en el cursor
 - `o`   insertar por debajo del cursor
 - `O`   insertar por encima del cursor
@@ -32,10 +38,18 @@ h l
 - `U` desahacer cambio en linea
 - `ctrl-r` deshacer lo deshecho
 
-## buscar
+## buscar en fichero
 
 - `/` buscar  --> `n`  next   --> `N`  previous
+
+## buscar en linea / bloque
+- `fd` buscar siguiente d en la línea 
 - `%`  ver paréntesis o llave correspondiente
+
+## indent
+
+- `=`  indent region
+- `==` indent line
 
 ## replace
 
@@ -48,6 +62,7 @@ h l
 ## buffers
 
 - `bd`  cerrar el buffer actual
+- `ctrl w w` moverse entre las ventanas
 
 ## exec
 
@@ -63,3 +78,19 @@ h l
 
 - `ctrl-g`  ver situación en fichero
 - `mays-G`  ir al final -> poner numero de linea -> `mays-G` -> vuelve a ese número de línea
+
+## windows
+
+- `:e filename`      - edit another file
+- `:split filename`  - split window and load another file
+- `ctrl-w up arrow`  - move cursor up a window
+- `ctrl-w ctrl-w`    - move cursor to another window (cycle)
+- `ctrl-w_`          - maximize current window
+- `ctrl-w=`          - make all equal size
+- `10 ctrl-w+`       - increase window size by 10 lines
+- `:vsplit file`     - vertical split
+- `:sview file`      - same as split, but readonly
+- `:hide`            - close current window
+- `:only`            - keep only this window open
+- `:ls`              - show current buffers
+- `:b 2`             - open buffer #2 in this window

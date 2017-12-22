@@ -7,3 +7,5 @@ Revert commit
 ><< edit files as necessary >>                              
 >git add ...                                              
 >git commit -c ORIG_HEAD  
+
+
