@@ -218,3 +218,15 @@ dependencies:
   - { role: postgres, dbname: blarg, other_parameter: 12 }
 ```
 
+## Preinstall python2 in machines without python2 to enable ansible
+
+```
+---
+- hosts: all
+  gather_facts: false
+  become: yes
+
+  pre_tasks:
+    - name: install python 2
+      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+```
