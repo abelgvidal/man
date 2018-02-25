@@ -19,9 +19,6 @@ or
 
 > GRANT ALL PRIVILEGES ON *.* TO 'user'@'12.46.46.55' IDENTIFIED BY 'passwd';
 
-## Clients
-
-For mac: sequel pro
 
 ## How to export
 
@@ -34,3 +31,8 @@ or
 ## How to import 
 
 > mysql -uusername -p -h hostname --port 3306 somedb < somedb.sql
+
+## Kill query
+
+> CALL mysql.rds_kill_query(id);
+> CALL mysql.rds_kill(id);
