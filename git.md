@@ -8,4 +8,13 @@ Revert commit
 >git add ...                                              
 >git commit -c ORIG_HEAD  
 
+Magic time machine!
+--------------
 
+>git reflog
+>git reset HEAD@{index}
+
+Diff also stuff staged
+----------------
+
+>git diff --staged
