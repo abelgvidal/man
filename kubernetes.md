@@ -42,3 +42,15 @@ echo Name of the Pod: $POD_NAME
 `kubectl exec -ti $POD_NAME bash`
 
 `kubectl delete deployment my-nginx
+
+
+## Resources
+
+Dashboard
+
+- Dashboard (do not do this in public clusters, this will open 31000 on every node to expose dashboard)
+  kubectl apply -f https://gist.githubusercontent.com/initcron/32ff89394c881414ea7ef7f4d3a1d499/raw/4863613585d05f9360321c7141cc32b8aa305605/kube-dashboard.yaml 
+  
+Visualizer
+
+- git clone https://github.com/schoolofdevops/kube-ops-view && kubectl apply -f kube-ops-view/deploy/ 
