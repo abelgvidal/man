@@ -1,0 +1,3 @@
+AWS_ACCESS_KEY="324"
+AWS_SECRET_KEY="whatever"
+AWS_REGION = ""
