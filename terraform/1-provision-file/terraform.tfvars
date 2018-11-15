@@ -1,0 +1,2 @@
+INSTANCE_USERNAME="root"
+INSTANCE_PASSWORD="whatever"
