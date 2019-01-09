@@ -29,3 +29,7 @@ Put label
 Remove label
 
 ```kubectl label pods my-pod color-```
+
+## Copying files
+
+```kubectl cp my-pod:/path/to/file /path/to/local/file```
