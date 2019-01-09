@@ -1,12 +1,12 @@
 # Kubernetes 
 
-- Namespaces
+## Namespaces
 
 K8s uses _namespaces_ to organize objects in the cluster. Default namespace is called `namespace`.
 
 ```kubectl --namespace=default```
 
-- Contexts
+## Contexts
 
 Change default namespace more permanently.
 
