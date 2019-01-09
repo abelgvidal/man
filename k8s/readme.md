@@ -20,4 +20,12 @@ Make a given context the default:
 
 Contexts can also be used to manage different clusters or different users for authenticating to those clusters using the --users or --clusters flags.
 
+## Labels
 
+Put label
+
+```kubectl label pods my-pod color=red```
+
+Remove label
+
+```kubectl label pods my-pod color-```
