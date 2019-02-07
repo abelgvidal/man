@@ -9,6 +9,8 @@
 - remove all dangling/untagged images: ```docker images -q --filter dangling=true | xargs docker rmi```
 - remove containers created *after* a specific container: ```docker ps --since a1bz3768ez7g -q | xargs docker rm```
 - remove containers created *before* a specific container: ```docker ps --before a1bz3768ez7g -q | xargs docker rm```
+- remove docker images older than one month: `docker image ls --format '{{ json . }}' | jq -r -s '.[] | select(now - (.CreatedAt | strptime("%Y-%m-%d %H:%M:%S %Z") | mktime) > 3600 * 24 * 30) | .ID' | xargs -r docker image rm`
+
 
 ## Options
 
