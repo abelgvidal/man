@@ -6,6 +6,13 @@ mostrar todas las funciones
 mostrar el nombre de las funciones
 `declare -F`
 
+# debug
+
+`set -x && do_whatever && set +x` or `bash -x'  traces
+
+`set -v` Prints shell input lines as they are read  
+
+
 
 # extracting version of datadog for m8s
 
