@@ -7,7 +7,7 @@ delete all
 
 get a given key
 
-``GET THISKEY```
+``GET THISKEY``
 
 list keys
 
