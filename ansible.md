@@ -1,5 +1,3 @@
-# ![ansible](media/ansible.png)
-
 Ansible
 ===============
 
