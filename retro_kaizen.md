@@ -7,6 +7,11 @@
 
 60 minutos
 
+## PREPARACION
+
+* Todo el mundo con camara y micro bien.
+* Se ve lo que se está compartiendo?
+
 ## REPASO DE ACCIONES ANTERIORES
  
 * ¿queremos graduar esta acción a BUENA PRÁCTICA? Se apunta
