@@ -11,6 +11,7 @@
 
 * Todo el mundo con camara y micro bien.
 * Se ve lo que se está compartiendo?
+* Solo tener visible lo imprescindible (minimo de pestañas, notificaciones, etc)
 
 ## REPASO DE ACCIONES ANTERIORES
  
@@ -27,13 +28,13 @@ si no hay consenso se propone
 
 ## TIMEBOX DEL TEMA
 
-* elección del equipo. si hay buena dinámica y tiempo total se puede ofrecer extender.
+* elección del equipo. si hay buena dinámica y tiempo total se puede ofrecer extender. tratar de que metan suficiente tiempo.
 
 ## TEMA
 - asegurar de que si inicia la conversación (por ejemplo, que lo exponga el que lo ha propuesto)
 - repartir el tiempo
 - fomenta positivos
-- coleccionar impresiones
+- coleccionar impresiones SIN PONER NOMBRES
 - informar del timefox
 - cerrar fase de análisis e informar que viene la fase de consenso
 
