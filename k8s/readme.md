@@ -8,7 +8,7 @@ K8s uses _namespaces_ to organize objects in the cluster. Default namespace is c
 
 ## Contexts
 
-Change default namespace more permanently.
+Change default namespace  permanently.
 
 Create a context:
 

@@ -1,7 +1,8 @@
+# redis
 
 ## redis-cli
 
-delete all 
+delete all
 
 ``FLUSHALL``
 
@@ -12,4 +13,3 @@ get a given key
 list keys
 
 ``KEYS *homeaway*``
-
