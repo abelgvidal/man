@@ -1,8 +1,13 @@
 # Network
 
+[Classed Networks](#clases)
+[Private ranges](#private)
+[CIDR](#cidr)
+
+## <a href="clases">Classed networks</a>
 Inicialmente para organizar los bloques de ips y las redes se crearon las clases.
 
-Hay 5 tipos de clases.
+Hay 5 tipos de clases. Las dos últimas son reservadas.
 
 ## Clases A
 
