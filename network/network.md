@@ -65,5 +65,5 @@ CIDR está basado en `variable-length subnet masking` (VLSM). CIDR addresses are
 
     10.x.x.x/8
     10.1.x.x/16
-    10.1.2.x/25
+    10.1.2.x/24
 
