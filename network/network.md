@@ -4,7 +4,7 @@
 * [Private ranges](#private)
 * [CIDR](#cidr)
 
-## <a href="clases">Classed networks</a>
+## <a name="clases">Classed networks</a>
 Inicialmente para organizar los bloques de ips y las redes se crearon las clases.
 
 Hay 5 tipos de clases. Las dos últimas son reservadas.
@@ -51,7 +51,7 @@ Se distinguen por sus tres primeros octetos.
         192.3.13.111
         192.3.13.88
 
-## <a href="private">Private ranges</a>
+## <a name="private">Private ranges</a>
 
 Algunos de estas redes han sido reservadas para ips internas. 
 
@@ -59,7 +59,7 @@ Algunos de estas redes han sido reservadas para ips internas.
 * Las 16 clases B desde 172.16.x.x hasta 172.31.0.0.
 * Las 256 clases C desde 193.168.0.x hasta 192.168.255.x.
 
-## <a href="cidr">Classless inter-domain routing</a>
+## <a name="cidr">Classless inter-domain routing</a>
 
 CIDR está basado en `variable-length subnet masking` (VLSM). CIDR addresses are composed by prefix (an ip) + suffix (a length). El sufijo indica la cantidad de bits desde el principio de la dirección que se usan para definir la red, el resto definen la dirección dentro de esa red.
 
