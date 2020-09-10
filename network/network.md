@@ -59,7 +59,7 @@ Algunos de estas redes han sido reservadas para ips internas.
 * Las 16 clases B desde 172.16.x.x hasta 172.31.0.0.
 * Las 256 clases C desde 193.168.0.x hasta 192.168.255.x.
 
-## <a name="cidr">Classless inter-domain routing</a>
+## CIDR <a name="cidr">Classless inter-domain routing</a>
 
 CIDR está basado en `variable-length subnet masking` (VLSM). CIDR addresses are composed by prefix (an ip) + suffix (a length). El sufijo indica la cantidad de bits desde el principio de la dirección que se usan para definir la red, el resto definen la dirección dentro de esa red.
 
@@ -67,3 +67,12 @@ CIDR está basado en `variable-length subnet masking` (VLSM). CIDR addresses are
     10.1.x.x/16
     10.1.2.x/24
 
+## What addresses in a VPC subnet are reserved in AWS
+
+What does AWS reserve for the network 10.4.4.x (5 in total):
+
+* 10.4.4.0 first address is reserved to refer to the network.
+* 10.4.4.1 vpc router
+* 10.4.4.2 dns 
+* 10.4.4.3 for some future requirement
+* 10.4.4.255 broadcast (although VPC does not support broadcast)
