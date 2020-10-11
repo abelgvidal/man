@@ -1,5 +1,14 @@
 # bash
 
+## safe flags
+
+`set -e`  stop if error
+`set -u`  stop if variable unset
+`set -o  pipefail` stop if command fails
+
+`set -euo`
+
+
 mostrar todas las funciones
 `declare -f`  
 
