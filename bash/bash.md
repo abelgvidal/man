@@ -10,10 +10,9 @@
 
 
 
+# bash
 
-
-# debug
-
+## debug
 
 mostrar todas las funciones
 `declare -f`  

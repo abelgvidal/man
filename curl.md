@@ -1,6 +1,6 @@
-# Curl Examples
+# Curl
 
-### POST application/x-www-form-urlencoded
+## POST application/x-www-form-urlencoded
 
 `application/x-www-form-urlencoded` is the default:
 
