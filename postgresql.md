@@ -4,14 +4,14 @@
 
 Log in as the newly created postgres user (after installing postgresql).
 
-```
-> su - postgres # only in linux, in OSX skip this
-> psql # Start the console
-> \h # Gives you a list of available SQL commands. 
-> \h [command] # Display [command] usage
+```bash
+su - postgres # only in linux, in OSX skip this
+psql # Start the console
+\h # Gives you a list of available SQL commands. 
+\h [command] # Display [command] usage
 ```
 
-## Create database
+## Create database
 
 > createdb name_of_db
 
@@ -19,7 +19,7 @@ Log in as the newly created postgres user (after installing postgresql).
 
 > \c name_of_db
 
-## Create user and grant permissions
+## Create user and grant permissions
 
 > CREATE USER milestone WITH PASSWORD "milestone";
 ERROR: syntax error at or near ""milestone""
