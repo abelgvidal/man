@@ -1,5 +1,8 @@
+# VIM
+
 ## Moverse
-```
+
+```bash
  k
 h l
  j
@@ -43,6 +46,7 @@ h l
 - `/` buscar  --> `n`  next   --> `N`  previous
 
 ## buscar en linea / bloque
+
 - `fd` buscar siguiente d en la línea 
 - `%`  ver paréntesis o llave correspondiente
 
