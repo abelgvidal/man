@@ -12,3 +12,8 @@
 } | grep -z 'Ready\| ok\|passed\|running'
 ```
 
+## Running jobs on the fly
+
+```bash
+kubectl run test-source --image=busybox --restart=Never -it --rm --namespace kuard-networkpolicy -- wget --timeout=5 -O- kuard
+```
