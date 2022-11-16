@@ -3,9 +3,11 @@
 ## Extensions
 
 * Project Manager. Alessandro Fragnani
-  * `Shift+Alt+P` Open project  
+  * `Shift+Alt+p` Open project  
 * Markdown Preview Enhanced
-  * `Ctrl+k V` Open preview
+  * `Ctrl+k v` Open preview
+* GitLens
+  * `Ctrl+G` Open Git Commands
 
 ## commands
 
