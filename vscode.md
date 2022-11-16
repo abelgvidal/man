@@ -13,4 +13,3 @@
 `Ctrl+P` Quick Open, Go to File...
 `Ctrl+Shift+N` New window/instance
 `Ctrl+W` Close window/instance
-`Ctrl+K Ctrl+S` Keyboard Shortcuts
